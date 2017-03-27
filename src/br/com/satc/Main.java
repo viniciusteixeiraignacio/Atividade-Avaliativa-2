@@ -42,10 +42,10 @@ Média de aproveitamento Conceito
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o preço de etiqueta do produto : ");
         double preco = entrada.nextDouble();
-        System.out.println("Escolha a condição de pagamento"+"/n"
-                + "1 À vista em dinheiro ou cheque"+"/n"
-                + "2 À vista no cartão de crédito"+"/n"
-                + "3 Em duas vezes"+"/n"
+        System.out.println("Escolha a condição de pagamento"+" /n"
+                + "1 À vista em dinheiro ou cheque"+" /n"
+                + "2 À vista no cartão de crédito"+" /n"
+                + "3 Em duas vezes"+" /n"
                 + "4 Em três vezes");
         int pagamento = entrada.nextInt();
         
@@ -53,12 +53,12 @@ Média de aproveitamento Conceito
         switch (pagamento) {
             case 1: {
                 System.out.println("Você recebe 10% de desconto, o preço do "
-                        + "produto será de "+preco*(10/100)+".");
+                        + "produto será de "+(preco-(preco*0.1))+".");
                 break;
             }
             case 2: {
                 System.out.println("Você recebe 15% de desconto, o preço do "
-                        + "produto será de "+preco*(15/100)+".");
+                        + "produto será de "+(preco-(preco*0.15))+".");
                 break;
             }
             case 3: {
@@ -68,7 +68,7 @@ Média de aproveitamento Conceito
             }
             case 4: {
                 System.out.println("Você terá que pagar 10% de juros o preço "
-                        + "do produto ficará"+preco*((10/100)+1)+".");
+                        + "do produto ficará"+(preco+(preco*1.1))+".");
                 break;
             }
 
