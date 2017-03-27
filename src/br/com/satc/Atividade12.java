@@ -39,6 +39,9 @@ Média de aproveitamento Conceito
         double n2 = entrada.nextDouble();
         System.out.println("Digite o ua terceira nota : ");
         double n3 = entrada.nextDouble();
+        System.out.println("Digite a quantidade de exercicios que fazem"
+                + "parte de avaliação");
+        double ME = entrada.nextDouble();
         
     }
     
