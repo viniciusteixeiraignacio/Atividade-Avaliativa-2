@@ -42,6 +42,11 @@ Média de aproveitamento Conceito
         System.out.println("Digite a quantidade de exercicios que fazem"
                 + "parte de avaliação");
         double ME = entrada.nextDouble();
+        double MA = (n1 + n2 * 2 + n3 *3 + ME)/7;
+        if (MA >= 90){
+            System.out.println("Nota A,Aprovado");
+        
+        }
         
     }
     
