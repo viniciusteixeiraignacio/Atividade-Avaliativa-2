@@ -46,8 +46,35 @@ Média de aproveitamento Conceito
         if (MA >= 90){
             System.out.println("Nota A,Aprovado");
         
+        }else{
+            if ((MA>=75)&&(MA<90)){
+                System.out.println("Nota B,Aprovado");
+            }else{
+               if ((MA>=60)&&(MA>75)){
+                   System.out.println("Nota C,Aprovado");              
+               
+               }else{
+                   if((MA>=40)&&(MA<60)){
+                      System.out.println("Nota D,Reprovado");
+                   }else{
+                      if(MA<40){
+                          System.out.println("Nota E,Reprovado");
+                      
+                      }  
+                   
+                   }
+                   
+                   
+               }  
+            
+            }
+                    
+                    
+              }
+            
+        
         }
         
     }
     
-}
+
