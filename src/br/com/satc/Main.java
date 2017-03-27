@@ -38,6 +38,7 @@ Média de aproveitamento Conceito
      * @param args
      */
     public static void main(String[] args) {
+        
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o preço de etiqueta do produto : ");
         double preco = entrada.nextDouble();
@@ -69,9 +70,11 @@ Média de aproveitamento Conceito
                 System.out.println("Você terá que pagar 10% de juros o preço "
                         + "do produto ficará"+preco*((10/100)+1)+".");
                 break;
+            }
 
         
         
     }
+    }
     
-}
+    }
